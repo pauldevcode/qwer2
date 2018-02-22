@@ -227,37 +227,28 @@
           
           <form action="/" method="post">
           
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text"required autocomplete="off"/>
-            </div>
-          </div>
-
           <div class="field-wrap">
             <label>
               Email Address<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input id="register_login" type="email"required autocomplete="off"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Set A Password<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input id="register_password" type="password"required autocomplete="off"/>
+          </div>
+
+           <div class="field-wrap">
+            <label>
+              Confirma A Password<span class="req">*</span>
+            </label>
+            <input id="register_confirmation" type="password"required autocomplete="off"/>
           </div>
           
-          <button type="submit" class="form-button button-block"/>Get Started</button>
+          <button id="register" type="submit" class="form-button button-block"/>Get Registered</button>
           
           </form>
 
@@ -272,19 +263,19 @@
             <label>
               Email Address<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input id="auth_login" type="email"required autocomplete="off"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Password<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input id="auth_password" type="password"required autocomplete="off"/>
           </div>
           
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
+         <!--  <p class="forgot"><a href="#">Forgot Password?</a></p> -->
           
-          <button class="form-button button-block"/>Log In</button>
+          <button id="auth" class="form-button button-block"/>Log In</button>
           
           </form>
 
